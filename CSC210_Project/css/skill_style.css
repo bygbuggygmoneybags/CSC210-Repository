@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    background-color: #B5B7FF;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+}
+
+h2 {
+    position: absolute;
+    left: 60%;
+}
+
+div {
+    position: absolute;
+    left: 40%;
+    width: 65%;
+    height: 45%;
+    align-content: center;
+    font-size: large;
+}
+
+.skills_list {
+    padding-top: 15px;
+}
+
+.menu {
+    background-color: black;
+    width: 15%;
+    padding: 2px 10px 15px 5px;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    color: white;
+}
