@@ -35,3 +35,60 @@ div {
     left: 0;
     color: white;
 }
+
+.spinnin {
+    animation: spin 1s linear;
+}
+@keyframes spin {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+
+.sql_img {
+    padding-left: 310px;
+}
+
+.fadein_ja {
+    animation: fadein 0.5s;
+}
+
+.fadein_cs {
+    animation: fadein 1s;
+}
+
+.fadein_js {
+    animation: fadein 1.5s;
+}
+
+.fadein_html {
+    animation: fadein 2s;
+}
+
+.fadein_css {
+    animation: fadein 2.5s;
+}
+
+.fadein_py {
+    animation: fadein 3s;
+}
+
+.fadein_sql {
+    animation: fadein 3.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
