@@ -7,8 +7,9 @@ html {
 img {
     position: absolute;
     left: 20%;
-    width: 20%;
-    height: 50%;
+    top: 0;
+    width: 60%;
+    height: 80%;
     animation: fadein 1s;
 }
 
@@ -29,6 +30,30 @@ div {
     height: 70%;
     background-color: #4AD5C8;
     padding: 5px;
+}
+
+.contact {
+    position: absolute;
+    left: 18%;
+    width: 25%;
+    height: 50%;
+    background-color: #C869FF;
+    padding: 5px;
+}
+
+.contact h3 {
+    position: absolute;
+    bottom: 10%;
+}
+
+.linkin {
+    position: absolute;
+    bottom: 8%;
+}
+
+.email {
+    position: absolute;
+    bottom: 3%;
 }
 
 body {
