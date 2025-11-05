@@ -15,7 +15,7 @@ h2 {
 
 div {
     position: absolute;
-    left: 40%;
+    left: 45%;
     width: 65%;
     height: 45%;
     align-content: center;
@@ -52,7 +52,8 @@ div {
 }
 
 .sql_img {
-    padding-left: 310px;
+    position: absolute;
+    right: 5%
 }
 
 .fadein_ja {
