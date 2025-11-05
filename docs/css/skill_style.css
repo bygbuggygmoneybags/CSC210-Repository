@@ -51,9 +51,16 @@ div {
     }
 }
 
+.fx_img {
+    width: 25%;
+    height: 25%;
+}
+
 .sql_img {
     position: absolute;
-    right: 5%
+    right: 5%;
+    width: 25%;
+    height: 20%;
 }
 
 .fadein_ja {
